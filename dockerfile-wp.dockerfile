@@ -1,4 +1,4 @@
-FROM wordpress:5.5-apache
+FROM wordpress:5.9.1-apache
 
 # APT Update/Upgrade, then install packages we need
 RUN apt update && \
